@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">MyProject</string>
+    <string name="app_name">Super Alarm</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="global_time">세계 시계</string>
+    <string name="alram">알람</string>
+    <string name="sleep_time">취침 시간</string>
+    <string name="stop_watch">스톱워치</string>
+    <string name="timer">타이머</string>
 </resources>
