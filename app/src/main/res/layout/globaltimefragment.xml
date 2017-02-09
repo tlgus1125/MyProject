@@ -2,15 +2,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.psh.myproject.GlobalTimeFragment">
+    tools:context="com.example.psh.myproject.fragment.GlobalTimeFragment">
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
-        android:text="Tab 2 Fragment"
-        android:layout_width="wrap_content"
+    <ListView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:id="@+id/globaltime_list"
+        ></ListView>
+
 </RelativeLayout>

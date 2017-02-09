@@ -1,4 +1,4 @@
-package com.example.psh.myproject;
+package com.example.psh.myproject.fragment;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.example.psh.myproject.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SleepTimeFragment extends Fragment {
+public class TimerFragment extends Fragment {
 
 
-    public SleepTimeFragment() {
+    public TimerFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +25,7 @@ public class SleepTimeFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.sleeptimefragment, container, false);
+        return inflater.inflate(R.layout.timerfragment, container, false);
     }
 
 }

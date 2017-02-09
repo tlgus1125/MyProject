@@ -1,16 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.example.psh.myproject.GlobalTimeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
 
     <TextView
-        android:text="Tab 4 Fragment"
-        android:layout_width="wrap_content"
+        android:id="@+id/time_out"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/textView" />
+        android:gravity="center"
+        android:textSize="40sp"
+        android:background="#cccccc"
+        android:textColor="#777777"
+        android:layout_marginTop="@dimen/default_margin"
+        android:text="00:00:00" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="@string/record"
+        android:gravity="center"
+        android:background="#333333"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/time_out"
+        android:id="@+id/recordText"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopwatch_list"
+        android:layout_below="@+id/recordText"
+        android:layout_above="@+id/btnlayout"
+        ></ListView>
+
+    <LinearLayout
+        android:id="@+id/btnlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/start"
+            />
+        <Button
+            android:id="@+id/btn_rec"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/record"
+            android:enabled="false"
+            />
+    </LinearLayout>
+
 </RelativeLayout>

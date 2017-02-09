@@ -3,9 +3,15 @@
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="global_time">세계 시계</string>
+    <string name="global_time">세계시계</string>
     <string name="alram">알람</string>
-    <string name="sleep_time">취침 시간</string>
+    <string name="sleep_time">취침시간</string>
     <string name="stop_watch">스톱워치</string>
     <string name="timer">타이머</string>
+    <string name="edit">편집</string>
+    <string name="add">추가</string>
+    <string name="setting">설정</string>
+    <string name="record">기록</string>
+    <string name="start">시작</string>
+
 </resources>
